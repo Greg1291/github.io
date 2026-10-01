@@ -43,7 +43,7 @@ a { color: var(--river); }
 
 /* Hero */
 .hero { max-width: 1180px; margin: 0 auto; padding: 56px 24px 24px; }
-.hero h1 { font-family: var(--head); font-weight: 700; font-size: clamp(2.6rem, 7vw, 5.2rem); line-height: 0.98; margin: 0 0 18px; letter-spacing: -0.01em; max-width: 14ch; }
+.hero h1 { text-align: center; font-family: var(--head); font-weight: 700; font-size: clamp(2.6rem, 7vw, 5.2rem); line-height: 0.98; margin: 0 0 18px; letter-spacing: -0.01em; max-width: 14ch; }
 .hero .lede { font-size: 1.25rem; max-width: 52ch; color: var(--muted); margin: 0 0 28px; }
 .hero .sheet { display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 1rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 14px; margin-bottom: 28px; }
 .hero .sheet b { color: var(--ink); font-weight: 700; }
